@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mensaje</title>
 </head>
 <body>
-    <h1>ver en pantalla</h1>
-<h1>Hola SENA</h1>
-<h1>Este es mi primer taller con Git y CI.</h1>
+ 
+<h2>Ui-básica<h2>
+    <ul id="lista"></ul>
+ 
+    <button id="agregar">Agregar</button>
+ 
+    <script src="app.js"></script>
+    <script>
+        // Cada vez que se hace clic, agrega un ítem a la lista
+        document.getElementById("agregar").addEventListener("click", () => {
+            agregarItem("Nuevo elemento");
+        });
+    </script>
+ 
 </body>
 </html>
+ 
